@@ -55,3 +55,10 @@ ignoreFailures = false
 
 // Define the main class for the application
 mainClassName = 'flashcards.App'
+
+
+
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+    termsOfServiceAgree = 'yes'
+}
