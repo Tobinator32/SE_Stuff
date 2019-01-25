@@ -46,7 +46,7 @@ jar {
 
 
 checkstyle{
-configFile = rootProject.file('checkstyle.xml')
+configFile file("checkstyle.xml")
 }
 
 spotbugs{
