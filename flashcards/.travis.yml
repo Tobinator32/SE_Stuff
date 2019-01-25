@@ -5,6 +5,4 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew build --scan -s
-
-  
+  - ./flashcards/gradlew build --scan -s
