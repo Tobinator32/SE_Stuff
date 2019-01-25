@@ -1,0 +1,13 @@
+Test1:
+  Die Abfrage in Zeile vier, ob "str" null entspricht wird aufgerufen aber es wird nicht hinein gegangen.
+  Das elseif konstrukt in Zeile 7 wird ausgewertet und jenachdem ob der index eins schon erreicht wurde wird eine neue iteration der while schleife in zeile 3 durchgeführt, zuvor wird noch zeile i++ in zeile 10 aufgerufen. Nun sind der srtring und substring in arr passend und es wird i returned in zeile 8.
+
+  Test2:
+  i wird 0 gesetzt in zeile 2. Die while schleife wird nicht betreten, da die arraylänge 0 ist. anschliesen wird -1 in zeile 12 returned.
+
+  Test3:
+    die schleife wird betreten da aber str null ist und das nullte element in arr ebenso wird i, also 0 returned.
+
+  Ein Fall wurde nicht beachtet. Wenn str != null aber ein beliebiges element in arr null ist, so wird -1 zurückgegeben.
+
+  Was ebenfalls zu Problemen führen kann trotz 100% Code coverage, ist eine unterschiedliche länge der Enthaltenen Strings sowie des String mit dem verglichen wird
